@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E1CFD8D8"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        tools:ignore="MissingConstraints"
+
+        app:boxStrokeWidth="0dp"
+android:textColorHint="@color/black"
+        android:hint="Enter your name"
+        app:boxCornerRadiusTopStart="24dp"
+        app:boxCornerRadiusBottomEnd="24dp"
+        app:boxCornerRadiusBottomStart="24dp"
+        app:boxCornerRadiusTopEnd="24dp"
+
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="250dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:layout_height="match_parent">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        tools:ignore="MissingConstraints"
+
+        app:boxStrokeWidth="0dp"
+        android:textColorHint="@color/black"
+        android:hint="Enter your e-mail"
+
+        app:boxCornerRadiusTopStart="24dp"
+        app:boxCornerRadiusBottomEnd="24dp"
+        app:boxCornerRadiusBottomStart="24dp"
+        app:boxCornerRadiusTopEnd="24dp"
+
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="320dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="32dp">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        tools:ignore="MissingConstraints"
+
+        app:boxStrokeWidth="0dp"
+        android:textColorHint="@color/black"
+        android:hint="Input password"
+        app:boxCornerRadiusTopStart="24dp"
+        app:boxCornerRadiusBottomEnd="24dp"
+        app:boxCornerRadiusBottomStart="24dp"
+        app:boxCornerRadiusTopEnd="24dp"
+
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="390dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteY="32dp">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        tools:ignore="MissingConstraints"
+
+        app:boxStrokeWidth="0dp"
+        android:textColorHint="@color/black"
+        android:hint="Confirm password"
+        app:boxCornerRadiusTopStart="24dp"
+        app:boxCornerRadiusBottomEnd="24dp"
+        app:boxCornerRadiusBottomStart="24dp"
+        app:boxCornerRadiusTopEnd="24dp"
+
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="460dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="32dp">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="555dp"
+        android:text="Register"
+        tools:ignore="MissingConstraints"></com.google.android.material.button.MaterialButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Welcome Onboard"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="Let's help you meet up your tasks"
+        android:textSize="15dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
